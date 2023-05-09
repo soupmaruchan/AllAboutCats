@@ -1,0 +1,261 @@
+html{
+    min-height: 100% ;
+    min-width: 100% ;
+    background-image: linear-gradient(white, ghostwhite);
+}
+
+#barraSuperior{
+    display: flex;
+    justify-content: left;
+    font-family: serif;
+}
+.contenedor-logo{
+    display: flex;
+}
+.contenedor-logo img:first-child {
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    z-index: 0;
+    float: right;
+} 
+.contenedor-bolso{
+    display: flex;
+}
+
+.contenedor-bolso img:last-child {
+    visibility: visible;
+    object-position: top;
+    margin-left: 1830px;
+    margin-right: 10px;
+    height: 55px;
+    width: 55px;
+    margin-top: -100px;
+} 
+#MotordeBusqueda{
+    display: flex;
+    justify-content: right;
+    margin-top: -50px;
+    padding: 15px;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    border-radius: 100px;
+    border-style: inset;
+    width: 250px;
+}
+nav {
+  background-color: linen;
+  color: #18171c;
+  height: 50px;
+  width: 1900px;
+  
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+li {
+  margin: 10px;
+}
+a {
+  color: #18171c;;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: oldlace;
+}
+
+h1{
+    color: black;
+    text-shadow: 1px 1px 2px dimgray;
+    position: relative;
+    bottom: 0px;
+    left:780px;
+    font-size: 60px;
+}
+p{
+    color: black;
+    position: relative;
+    bottom: 10px;
+    left:188px;
+    font-size: 25px; 
+}
+h2{
+    color: black;
+    position: relative;
+    bottom: 10px;
+    left:440px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+img{
+    position: middle;
+    margin-left: 470px;
+    margin-right: 30px;
+    height: 500px;
+    width: 1000px;
+    z-index: -2;
+    filter: blur(30);
+}
+h3{
+    color: black;
+    position: relative;
+    bottom: 0px;
+    left:475px;
+    font-size: 60px; 
+}
+p8{
+ color: black;
+    position: relative;
+    bottom: 40px;
+    left:475px;
+    font-size: 18px; 
+    line-height: 12%;
+    letter-spacing: 1px;
+    white-space: pre-line;
+}
+h4{
+    color: black;
+    position: relative;
+    bottom: -40px;
+    left:13px;
+    font-size: 38px; 
+}
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container {
+    text-align: center;
+    margin-top: 23px;
+    text-shadow: 1px 1px 2px dimgray;
+    font-size: 25px; 
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 300px;
+    height: 270px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+
+}
+.campo{
+    font-family: sans-serif;
+    border-style: outset;
+    border-color: gainsboro;
+    border-width: 3px; }
+
+}
+
+legend{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    left:110px;
+    text-shadow: 1px 1px 2px dimgray;
+}
+
+.espacio{
+    padding: 10px;
+    color: darkslateblue; }
+
+.boton, .radio{
+    margin-left: 20px;
+    margin-right: 20px; }
+
+#Nombre, #NUsuario, #NContrasena, #Usuario, #Contrasena{
+    width: 100%; }
+
+.boton{
+    background-color: mistyrose;
+    color: black;
+    border-style: outset;
+    padding: 5px; 
+}
+footer{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+color: cornflowerblue}
+
+input, label1{
+    margin-left: 200px;
+    margin: 40px;
+    color: #9c9c9c;
+}
+.opciones{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    margin-top: 25px;
+}
+
+.cumple{
+    padding: 8px;
+    color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+html {
+    cursor: url(nyan.png), auto;
+}
+
+details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-color: ;
+    margin-top: 90px;
+}
